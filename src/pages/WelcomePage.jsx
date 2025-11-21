@@ -21,13 +21,7 @@ function WelcomePage() {
                             </p>
                         </div>
                         
-                        <div className="mb-3">
-                            <p className="text-secondary">
-                                Sistema para el registro y gestión de mediciones de consumo eléctrico.
-                                <br />
-                                Utiliza el menú de navegación para acceder a las funcionalidades.
-                            </p>
-                        </div>
+
 
                         <div className="d-flex gap-3 justify-content-center mt-4">
                             <Button 

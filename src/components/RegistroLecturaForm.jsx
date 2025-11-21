@@ -13,7 +13,7 @@ function RegistroLecturaForm() {
     const { addMedicion, toast } = useContext(MedicionesContext);
 
     const [fechaHora, setFechaHora] = useState(null);
-    const medidores = Array.from({ length: 10 }, (_, i) => ({ label: `Medidor ${i + 1}`, value: i + 1 }));
+    const medidores = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
     const [medidor, setMedidor] = useState(null);
     const [direccion, setDireccion] = useState('');
     const [valor, setValor] = useState(null);
