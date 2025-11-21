@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AppNavbar from './components/AppNavbar';
-import HomePage from './pages/HomePage';
+import WelcomePage from './pages/WelcomePage';
+import RegistrarPage from './pages/RegistrarPage';
 import MedicionesPage from './pages/MedicionesPage';
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
         <Router>
             <AppNavbar />
             <Routes>
-                <Route path="/" element={<HomePage />} />
+                <Route path="/" element={<WelcomePage />} />
+                <Route path="/registrar" element={<RegistrarPage />} />
                 <Route path="/mediciones" element={<MedicionesPage />} />
             </Routes>
         </Router>

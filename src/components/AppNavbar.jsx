@@ -7,9 +7,14 @@ function AppNavbar() {
 
     const items = [
         {
+            label: 'Home',
+            icon: 'pi pi-home',
+            command: () => navigate('/')
+        },
+        {
             label: 'Registrar Lectura',
             icon: 'pi pi-plus',
-            command: () => navigate('/')
+            command: () => navigate('/registrar')
         },
         {
             label: 'Mediciones Existentes',
